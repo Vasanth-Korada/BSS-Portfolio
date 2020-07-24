@@ -23,13 +23,12 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
         <div class="container"><img class="img-fluid d-inline-block" data-toggle="tooltip" data-bs-tooltip="" data-placement="bottom" data-aos="fade" data-aos-duration="1000" data-aos-delay="100" src="assets/img/My%20Logo.png" style="height: 50px;" loading="lazy" alt="Logo" title="Logo">
-            <button
-                data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item" role="presentation"></li>
-                    </ul>
-                </div>
+            <div
+                class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"></li>
+                </ul>
+        </div>
         </div>
     </nav>
     <main class="page lanidng-page" style="background-color: #121212;">
@@ -45,7 +44,7 @@
         <h2 class="text-center text-primary" id="projects-text" style="color: rgb(236,239,242);"><strong>PROJECTS</strong></h2>
         <section id="myapps" style="background-color: #121212;">
             <div class="container">
-                <div class="row myapps-row1">
+                <div class="row myapps-row1" id="projects-row1">
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/Feature%20Graphic%201920%201080.png" style="width: 320px;">
@@ -55,7 +54,7 @@
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/19201080.png" style="width: 320px;">
-                                <p class="card-text"></p><a class="card-link" href="https://play.google.com/store/apps/details?id=com.vktech.daily_coding_challenges" target="_blank">Daily Coding Challenges (App)</a></div>
+                                <p class="card-text"></p><a class="card-link" href="https://play.google.com/store/apps/details?id=com.vktech.daily_coding_challenges" target="_blank">Daily Coding Challenges (Android, iOS)</a></div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -65,11 +64,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="row myapps-row2">
+                <div class="row myapps-row2" id="projects-row2">
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/1.jpg" style="width: 320px;">
-                                <p class="card-text"></p><a class="card-link" href="https://lietonline.netlify.app/" target="_blank">Online Exam Portal</a></div>
+                                <p class="card-text"></p><a class="card-link" href="https://lietonline.netlify.app/" target="_blank">Online Exam Portal (Web)</a></div>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -82,11 +81,11 @@
                         <div class="card">
                             <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/@reallygreatsite.png" style="width: 320px;" width="320px" height="200px">
                                 <p
-                                    class="card-text"></p><a class="card-link" href="https://github.com/Vasanth-Korada/ID-Card-Generator-Using-Python" target="_blank">ON SPOT ID Card Generator</a></div>
+                                    class="card-text"></p><a class="card-link" href="https://github.com/Vasanth-Korada/ID-Card-Generator-Using-Python" target="_blank">ON SPOT ID Card Generator (Desktop)</a></div>
                         </div>
                     </div>
                 </div>
-                <div class="row myapps-row3">
+                <div class="row myapps-row3" id="projects-row-3">
                     <div class="col-md-4">
                         <div class="card">
                             <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/19201080ld.png" style="width: 320px;">
@@ -107,6 +106,27 @@
                         </div>
                     </div>
                 </div>
+                <div class="row myapps-row3" id="projects-row-4" style="padding-top: 10px;">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/triviabanner.png" style="width: 320px;" width="320px" height="200px">
+                                <p
+                                    class="card-text"></p><a class="card-link" href="https://play.google.com/store/apps/details?id=com.vasanth.fun_app" target="_blank">Trivia - The Fun App</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/tictactoe%20banner.png" style="width: 320px;">
+                                <p class="card-text"></p><a class="card-link" href="https://vktictactoe.netlify.app/" target="_blank" style="font-size: 16px;">TIC TAC TOE (Android, Web)</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body text-center"><img class="img-fluid d-md-flex justify-content-center align-items-center align-content-center justify-content-md-center align-items-md-center" src="assets/img/INFY%20TECH.png" style="width: 320px;">
+                                <p class="card-text"></p><a class="card-link" href="https://infytech.netlify.com/" target="_blank">INFY TECH</a></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section><img class="img-fluid" data-aos="fade-up" data-aos-duration="1100" data-aos-delay="300" src="assets/img/h550px.png" style="opacity: 0.90;filter: blur(0px) brightness(92%) contrast(102%);">
         <div class="container twobtns-container" id="two-btns-container">
@@ -114,12 +134,12 @@
                     target="_blank" style="margin-left: 10px;">Google Play</a></div>
         </div>
         <section class="portfolio-block skills" style="color: rgb(49,93,137);padding-top: 50px;padding-bottom: 50px;background-repeat: repeat;">
-            <div class="container">
+            <div class="container" id="skills">
                 <div class="heading">
-                    <h2 class="text-primary" style="color: rgb(236,239,242);">Skills</h2>
+                    <h2 class="text-primary" style="color: rgb(236,239,242);margin-bottom: 0px;">Skills</h2>
                 </div>
-                <div class="row">
-                    <div class="col-md-4">
+                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4 text-center" id="skills-row">
+                    <div class="col-md-4" id="flutter-skill" style="height: 320px;">
                         <div class="card special-skill-item border-0">
                             <div class="card-header bg-transparent border-0"><i class="icon ion-social-android bg-primary"></i></div>
                             <div class="card-body">
@@ -128,7 +148,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" id="react-skill">
                         <div class="card special-skill-item border-0">
                             <div class="card-header bg-transparent border-0"><i class="icon ion-earth bg-info"></i></div>
                             <div class="card-body">
@@ -137,12 +157,64 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4" id="db-skill">
                         <div class="card special-skill-item border-0">
                             <div class="card-header bg-transparent border-0"><i class="icon ion-ios-cloudy bg-warning"></i></div>
                             <div class="card-body">
-                                <h3 class="card-title">Firebase</h3>
+                                <h3 class="card-title">Firebase &amp; MongoDB</h3>
                                 <p class="card-text">I've used firebase almost to all my projects ranging from Authentication to Hosting</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="other-skills">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-social-css3 bg-warning"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">CSS, Bootstrap &amp; Materialize CSS</h3>
+                                <p class="card-text">I've used these two&nbsp; in my web projects and still exploring</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="achievements">
+                <div class="heading">
+                    <h2 class="text-primary" style="color: rgb(236,239,242);margin-bottom: 0px;"><strong>achievements</strong></h2>
+                </div>
+                <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-4 row-cols-xl-4" id="achievements-row">
+                    <div class="col-md-4" id="ld-1st" style="height: 320px;">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-trophy bg-primary" style="color: #ffd700;background-color: #0ea0ff;"></i></div>
+                            <div class="card-body">
+                                <h5 class="text-center card-title" style="font-size: 16px;color: #315d89;">1st<br><strong>Lendi Deets Mobile App</strong><br></h5>
+                                <p class="card-text"><br>52nd Engineer's Day (2019) at LIET</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="fp-1st">
+                        <div class="card special-skill-item border-0" style="color: rgb(7,123,239);">
+                            <div class="card-header bg-transparent border-0" style="color: rgb(11,117,224);"><i class="icon ion-trophy bg-info" style="color: #ffd700;background-color: #0ea0ff;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title" style="font-size: 16px;color: #315d89;">1st<br><strong>Flutter Presentation</strong><br></h3>
+                                <p class="card-text"><br>Flutter Interact Extended GDG Vizag 2019</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="dcc-2nd">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-trophy bg-warning" style="color: #f7ebeb;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title" style="font-size: 16px;">2nd<br><strong>Daily Coding Challenges,</strong><br><strong>Concepts &amp; Articles</strong><br></h3>
+                                <p class="text-center card-text">Application Programming at<br>DUAL-A-THON 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="idcard-2nd">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-trophy bg-warning" style="color: #f7ebeb;"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title" style="font-size: 16px;">2nd<br><strong>ON-SPOT ID Card Generator</strong><br><strong>with Python</strong><br></h3>
+                                <p class="card-text">Annual CSE Dept. Fest (2018) at LIET</p>
                             </div>
                         </div>
                     </div>
@@ -155,7 +227,7 @@
             <div class="row align-items-center">
                 <div class="col-md-12 col-lg-5 offset-lg-1 text">
                     <h3 class="text-primary">INFY TECH</h3>
-                    <p class="text-right">INFY TECH is a YouTube channel which delivers technical stuff like programming, tech news, developer news, tech facts, mobile tech and all the interesting technology trends.<br></p><a class="btn btn-outline-danger text-center" role="button"
+                    <p class="text-center">INFY TECH is a YouTube channel which delivers technical stuff like programming, tech news, developer news, tech facts, mobile tech and all the interesting technology trends.<br></p><a class="btn btn-outline-danger text-center" role="button"
                         href="https://www.youtube.com/channel/UCuxkk3TD7cfPR08JEWVyXZA" target="_blank" style="filter: brightness(131%) contrast(189%) saturate(200%);opacity: 1;">Subscribe</a></div>
                 <div class="col-md-12 col-lg-5">
                     <div class="portfolio-laptop-mockup">
